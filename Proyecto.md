@@ -1,6 +1,6 @@
 # Plan para el Desarrollo de una Aplicación Generadora de QR Dinámicos para Transfermóvil (Cuba)
 
-## 1. 🎯 Resumen Ejecutivo
+## 1.  Resumen Ejecutivo
 
 **Objetivo:** Desarrollar una aplicación que permita a comercios y emprendedores en Cuba generar códigos QR dinámicos para cobros a través de Transfermóvil, agilizando las ventas presenciales y en línea.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 2. 🔍 Fase 1: Análisis del Ecosistema y Requisitos Previos
+## 2.  Fase 1: Análisis del Ecosistema y Requisitos Previos
 
 ### 2.1. Entendimiento del Servicio "Bulevar Mi Transfer"
 
@@ -33,7 +33,7 @@ Antes de desarrollar cualquier línea de código, el negocio para el que se desa
 
 ---
 
-## 3. 🏗️ Fase 2: Arquitectura Técnica Propuesta
+## 3.  Fase 2: Arquitectura Técnica Propuesta
 
 Dado que no hay documentación pública de la API de Bulevar Mi Transfer, la arquitectura debe ser **flexible y basada en la ingeniería inversa del flujo oficial** o en la documentación que ETECSA proporcione a los contratantes.
 
@@ -57,7 +57,7 @@ Dado que no hay documentación pública de la API de Bulevar Mi Transfer, la arq
 
 ---
 
-## 4. 💻 Fase 3: Desarrollo de la Aplicación
+## 4.  Fase 3: Desarrollo de la Aplicación
 
 ### 4.1. Backend (Servidor de Integración)
 
@@ -87,7 +87,7 @@ Dado que no hay documentación pública de la API de Bulevar Mi Transfer, la arq
 
 ---
 
-## 5. 🧪 Fase 4: Pruebas y Validación
+## 5.  Fase 4: Pruebas y Validación
 
 - **Pruebas Unitarias:** Para la lógica de generación de QR y comunicación con el backend.
 - **Pruebas de Integración:** Con el entorno de pruebas (sandbox) de ETECSA, si está disponible. La plataforma UIC ofrece "dos espacios (sandbox) para realizar pruebas de sus integraciones".
@@ -95,14 +95,14 @@ Dado que no hay documentación pública de la API de Bulevar Mi Transfer, la arq
 
 ---
 
-## 6. 🚀 Fase 5: Despliegue y Distribución
+## 6.  Fase 5: Despliegue y Distribución
 
 - **Distribución:** Dado que las restricciones para publicar en Google Play desde Cuba son conocidas, la distribución puede realizarse a través de **Apklis** (tienda de aplicaciones cubana) o mediante instalación directa del APK.
 - **Infraestructura:** El backend puede alojarse en servidores cubanos (ej. en la UCI o ETECSA) o en la nube, siempre cumpliendo con las regulaciones de datos del país.
 
 ---
 
-## 7. ⚠️ Desafíos y Riesgos Clave
+## 7.  Desafíos y Riesgos Clave
 
 | Riesgo | Mitigación |
 |--------|------------|
@@ -113,7 +113,7 @@ Dado que no hay documentación pública de la API de Bulevar Mi Transfer, la arq
 
 ---
 
-## 8. 📅 Cronograma Estimado (3-6 Meses)
+## 8.  Cronograma Estimado (3-6 Meses)
 
 | Fase | Duración | Hitos |
 |------|----------|-------|
